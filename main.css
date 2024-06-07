@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active{
+    opacity: 0;
+    z-index: -10;
+    position: absolute;
+}
+.custom{
+    border-color: wheat ;
+    transition: all 0.1s linear;
+}
+.custom::placeholder{
+    color:aquamarine
+}
+.custom:focus{
+    border-color: #2563eb;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
